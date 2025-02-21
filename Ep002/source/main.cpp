@@ -2,7 +2,7 @@
 #include <concepts>
 
 void msgToTerm() {
-  std::printf("ksas");
+  std::printf("ksas 4\n");
 }
 
 int main() {
