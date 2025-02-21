@@ -26,4 +26,4 @@ private:
   std::string dog_name{ "Puffy" };
 };
 
-#endif DOG_H
+#endif
