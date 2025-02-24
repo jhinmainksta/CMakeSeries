@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.5)
 project(HelloBinary 
     VERSION 1.0.0
     DESCRIPTION "The leading Hello World App"
-    LANGUAGES CXX) 
+    LANGUAGES CXX)
 
 add_library(operations STATIC src/operations.cpp)
 target_include_directories(operations PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
